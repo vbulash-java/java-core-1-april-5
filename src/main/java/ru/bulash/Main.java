@@ -9,7 +9,7 @@ import ru.bulash.animals.*;
 4. * Добавить подсчет созданных котов, собак и животных.
  */
 public class Main {
-	public static void main(String[] args) {
+	public static void main(String... args) {
 		Animal[] animals = new Animal[10];    // Далее подсчитаем количество реально созданных животных, не просто длину массива
 		Cat cat = new Cat("Барсик");
 		cat.run(100);
@@ -26,17 +26,17 @@ public class Main {
 		animals[3].run(83);
 		animals[3].swim(22);
 
-		System.out.println();
-
-		animals[4] = new Dog("Шарик");
-		animals[4].run(250);
-		animals[4].swim(10);
-		animals[5] = new Dog("Тузик");
-		animals[5].run(300);
-		animals[5].swim(20);
-		animals[6] = new Dog("Барбос");
-		animals[6].run(1050);
-		animals[6].swim(100500);
+//		System.out.println();
+//
+//		animals[4] = new Dog("Шарик");
+//		animals[4].run(250);
+//		animals[4].swim(10);
+//		animals[5] = new Dog("Тузик");
+//		animals[5].run(300);
+//		animals[5].swim(20);
+//		animals[6] = new Dog("Барбос");
+//		animals[6].run(1050);
+//		animals[6].swim(100500);
 
 		System.out.println();
 
